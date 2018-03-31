@@ -75,15 +75,15 @@ $(document).ready(function($) {
 	var body = $('body');
 	body.addClass('active');
 
-	winDow.load( function(){
-		var mainDiv = $('#container'),
-			preloader = $('.preloader');
+	// winDow.load( function(){
+	// 	var mainDiv = $('#container'),
+	// 		preloader = $('.preloader');
 
-			preloader.fadeOut(200, function(){
-				mainDiv.delay(200).addClass('active');
-				body.delay(200).css('background', '#00be9b');
-			});
-	});
+	// 		preloader.fadeOut(200, function(){
+	// 			mainDiv.delay(200).addClass('active');
+	// 			body.delay(200).css('background', '#00be9b');
+	// 		});
+	// });
 
 	/********************* Flexslider Manipulation ****************/
 	try {
